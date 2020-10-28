@@ -27,7 +27,7 @@ char Game::play() {
 bool Game::handleInput() {
 	int index;
 	std::cout << "Ходит " << field.getTurn() << ": ";
-	std::cin >> index;
+	std::cin >> index; std::cin.ignore();
 	if (index == 0) {
 		helper.expand();
 		return false;
