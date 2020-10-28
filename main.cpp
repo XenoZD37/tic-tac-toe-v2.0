@@ -8,5 +8,8 @@ int main() {
     setlocale(0, "ru");
     Game game;
     char winner = game.play();
-    cout << "\nÏîáåäèë " << winner << "!";
+    if (winner != 'd')
+        cout << "\nÐŸÐ¾Ð±ÐµÐ´Ð¸Ð» " << winner << "!";
+    else 
+        cout << "ÐÐ¸Ñ‡ÑŒÑ!";
  }
