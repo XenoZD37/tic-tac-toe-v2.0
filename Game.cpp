@@ -26,7 +26,7 @@ char Game::play() {
 
 bool Game::handleInput() {
 	int index;
-	std::cout << "Õîäèò " << field.getTurn() << ": ";
+	std::cout << "Ð¥Ð¾Ð´Ð¸Ñ‚ " << field.getTurn() << ": ";
 	std::cin >> index;
 	if (index == 0) {
 		helper.expand();
@@ -35,4 +35,5 @@ bool Game::handleInput() {
 	index--;
 	if (index >= 0 && index <= 8)
 		return field.makeAMove(index);
+	return false;
 }
