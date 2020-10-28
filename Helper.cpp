@@ -3,9 +3,9 @@
 
 void Helper::show() {
 	if (isOpened)
-		std::cout << "Óïðàâëåíèå\n7 8 9\n4 5 6\n1 2 3\nÑêðûòü óïðàâëåíèå - 0" << std::endl;
+		std::cout << "Ð£Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ\n7 8 9\n4 5 6\n1 2 3\nÐ¡ÐºÑ€Ñ‹Ñ‚ÑŒ ÑƒÐ¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ - 0" << std::endl;
 	else
-		std::cout << "Ïîêàçàòü óïðàâëåíèå - 0" << std::endl;
+		std::cout << "ÐŸÐ¾ÐºÐ°Ð·Ð°Ñ‚ÑŒ ÑƒÐ¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ - 0" << std::endl;
 }
 
 void Helper::expand() {
